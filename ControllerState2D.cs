@@ -23,7 +23,7 @@ public class ControllerState2D
     public bool HasCollisions { get { return IsCollidingAbove || IsCollidingBelow || IsCollidingLeft || IsCollidingRight; } }
 
     // Total state reset
-    public void reset()
+    public void Reset()
     {
         IsMovingDownSlope =
         IsCollidingRight =
